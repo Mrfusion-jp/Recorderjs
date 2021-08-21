@@ -1,1 +1,2 @@
 var apiKey = '';
+var languageCode = '';
