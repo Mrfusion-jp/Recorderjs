@@ -43,7 +43,8 @@ function audioRecognize() {
                 "config": {
                     "encoding": "LINEAR16",
                     "sampleRateHertz": 44100, // 環境によってかわるっぽいので変えてください(おそらくエラーに正しい値が出てくると思います.
-                    "languageCode": "ja-JP"
+                    "languageCode": "ja-JP",
+                    "audio_channel_count": 2
                 },
                 "audio": {
                     "content": arrayBufferToBase64(result)
